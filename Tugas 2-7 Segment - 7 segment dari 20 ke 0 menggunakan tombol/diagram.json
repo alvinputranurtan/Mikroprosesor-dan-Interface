@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Alvin Putra Nurtan",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": -147.78,
+      "left": 230.96,
+      "attrs": { "common": "cathode", "digits": "2", "colon": "" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -77.4,
+      "left": -54.6,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 205.55,
+      "left": 19.2,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "sevseg1:A", "uno:4", "cyan", [ "v-9.6", "h-166.5" ] ],
+    [ "sevseg1:B", "uno:5", "limegreen", [ "v-19.2", "h-185.6" ] ],
+    [ "sevseg1:C", "uno:6", "white", [ "v8.76", "h-60.7" ] ],
+    [ "sevseg1:D", "uno:7", "violet", [ "v27.96", "h-223.8" ] ],
+    [ "sevseg1:E", "uno:8", "gold", [ "v18.36", "h-230.2" ] ],
+    [ "sevseg1:F", "uno:9", "blue", [ "v-28.8", "h-259.4" ] ],
+    [ "sevseg1:G", "uno:10", "orange", [ "v37.56", "h-144.1" ] ],
+    [ "sevseg1:DIG1", "uno:11", "green", [ "v-38.4", "h-259.2" ] ],
+    [ "sevseg1:DIG2", "uno:12", "#8f4814", [ "v-48", "h-278.3" ] ],
+    [ "uno:GND.2", "r1:2", "black", [ "v0" ] ],
+    [ "r1:1", "btn1:1.r", "black", [ "v0", "h-28.8", "v-230.4" ] ],
+    [ "btn1:2.r", "uno:5V", "red", [ "v240.2", "h153.4" ] ],
+    [ "btn1:2.l", "uno:5V", "red", [ "v-9.6", "h-19.4", "v326.4", "h86.4" ] ],
+    [ "btn1:1.l", "uno:3", "gray", [ "v-115.2", "h345.6", "v172.8", "h-105.6" ] ]
+  ],
+  "dependencies": {}
+}

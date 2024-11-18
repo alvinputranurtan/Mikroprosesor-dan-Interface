@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="U79-46rUtEn0H3DA8TiZ">
+    <mxGraphModel dx="1050" dy="1622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-2" value="Inisialisasi Serial dengan Baud Rate 115200" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="163" y="118" width="234" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-3" value="Membuat Objek WiFiManager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="193" y="234" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-4" value="Mencetak Memulai portal konfigurasi..." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="159" y="350" width="242" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-5" value="Memulai Portal Konfigurasi dengan Nama ESP Alvin dan Rifqi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="152" y="466" width="257" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-6" value="WiFi Terhubung?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="198" y="600" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-7" value="Mencetak Terhubung ke WiFi!" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="838" width="229" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-8" value="Mencetak Gagal terhubung ke WiFi." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="299" y="838" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-9" value="Loop Menjalankan Kode Utama" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="166" y="954" width="229" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" target="BUpYdUKzGB9cRWQt8TsD-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="280.5" y="68" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="BUpYdUKzGB9cRWQt8TsD-2" target="BUpYdUKzGB9cRWQt8TsD-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="BUpYdUKzGB9cRWQt8TsD-3" target="BUpYdUKzGB9cRWQt8TsD-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="BUpYdUKzGB9cRWQt8TsD-4" target="BUpYdUKzGB9cRWQt8TsD-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="BUpYdUKzGB9cRWQt8TsD-5" target="BUpYdUKzGB9cRWQt8TsD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-15" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.91;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="BUpYdUKzGB9cRWQt8TsD-6" target="BUpYdUKzGB9cRWQt8TsD-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="801" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-16" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.91;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="BUpYdUKzGB9cRWQt8TsD-6" target="BUpYdUKzGB9cRWQt8TsD-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="801" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.14;entryY=-0.01;rounded=0;" edge="1" parent="1" source="BUpYdUKzGB9cRWQt8TsD-7" target="BUpYdUKzGB9cRWQt8TsD-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="929" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.86;entryY=-0.01;rounded=0;" edge="1" parent="1" source="BUpYdUKzGB9cRWQt8TsD-8" target="BUpYdUKzGB9cRWQt8TsD-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="929" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUpYdUKzGB9cRWQt8TsD-19" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220.5" y="-10" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
